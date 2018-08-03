@@ -4,7 +4,7 @@
   "description": "Nwose Lotanna's web portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "echo \"Hello from sass\""
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
