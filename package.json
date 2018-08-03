@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/viclotana/viclotana.github.io/issues"
   },
-  "homepage": "https://github.com/viclotana/viclotana.github.io#readme"
+  "homepage": "https://github.com/viclotana/viclotana.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
 }
