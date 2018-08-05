@@ -107,4 +107,23 @@
 
       }
     }
+
+    .nav-link {
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 0.3rem 0;
+        color: #fff;
+        text-decoration: none;
+        @include easeOut;
+
+    }
+}
+
+// delay each nav item slide by 0.1s
+@for $x from 1 through 6 {
+    .nav-item:nth-child(#{$x}){
+        transition-delay: $x * 0.09s;
+    }
 }
