@@ -78,24 +78,4 @@
     .projects{
         grid-template-columns: 1fr;
     }
-
-    .boxes{
-        div {
-            font-size: 1rem;
-            border: 2px #fff solid;
-            padding: 0;
-            margin-bottom: 0;
-            @include easeOut;
-    
-    
-            &:hover{
-                padding: 0.1rem 0.1rem;
-                background: $secondary-color;
-                color: set-text-color($secondary-color);
-                span {
-                    color: set-text-color($secondary-color);
-                }
-            }
-        }
-    }
 }

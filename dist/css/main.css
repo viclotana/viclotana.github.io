@@ -282,16 +282,4 @@ main {
   main#home h2 {
     font-size: 20px; }
   .projects {
-    grid-template-columns: 1fr; }
-  .boxes div {
-    font-size: 1rem;
-    border: 2px #fff solid;
-    padding: 0;
-    margin-bottom: 0;
-    transition: all 0.8s ease-out; }
-    .boxes div:hover {
-      padding: 0.1rem 0.1rem;
-      background: #eece1a;
-      color: #000; }
-      .boxes div:hover span {
-        color: #000; } }
+    grid-template-columns: 1fr; } }
