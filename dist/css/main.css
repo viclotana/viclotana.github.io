@@ -284,7 +284,7 @@ main {
   .projects {
     grid-template-columns: 1fr; }
   .boxes div {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     border: 3px #fff solid;
     padding: 0.3rem 0.3rem;
     margin-bottom: 2rem;
